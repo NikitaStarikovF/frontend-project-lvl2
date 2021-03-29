@@ -5,7 +5,11 @@ const program = new Command();
 
 program
   .version('0.0')
-  .description('Compares two configuration files and shows a difference.');
+  .arguments('<filepath1> <filepath2>')
+  .description('Compares two configuration files and shows a difference.', /* {
+    format: 'format',
+    type: 'type'
+  } */)
+  .option('-f, --format [type]', 'output format');
 
 program.parse();
-//console.log(program.parse());
