@@ -1,12 +1,19 @@
 {
   "name": "frontend-project-lvl2",
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "src": {
+    "filepath1.json": "src/read.js"
+  },
+  "type": "module",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/NikitaStarikovF/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/NikitaStarikovF/frontend-project-lvl2/actions)",
   "main": "index.js",
   "dependencies": {
-    "commander": "^7.2.0"
+    "commander": "^7.2.0",
+    "lodash": "^4.17.21"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/NikitaStarikovF/frontend-project-lvl2/issues"
   },
-  "homepage": "https://github.com/NikitaStarikovF/frontend-project-lvl2#readme"
+  "homepage": "https://github.com/NikitaStarikovF/frontend-project-lvl2#readme",
+  "devDependencies": {
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
 }

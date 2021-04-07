@@ -9,3 +9,9 @@ publish:
 	
 gendiff:
 	node bin/gendiff.js
+
+filepath1.json:
+	node src/read.js
+
+
+	
