@@ -7,6 +7,10 @@
     "filepath1.json": "src/read.js"
   },
   "type": "module",
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {}
+  },
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/NikitaStarikovF/frontend-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/NikitaStarikovF/frontend-project-lvl2/actions)",
   "main": "index.js",
@@ -15,7 +19,7 @@
     "lodash": "^4.17.21"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --colors"
   },
   "repository": {
     "type": "git",
@@ -30,6 +34,7 @@
   "devDependencies": {
     "eslint": "^7.23.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3"
   }
 }
