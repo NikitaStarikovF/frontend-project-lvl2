@@ -1,10 +1,10 @@
-import getDifferences from '../src/test.index.js';
+import getDifferences from '../src/index.js';
 import readFile from '../src/readFile.js';
 
 test('getDifferences', () => {
   expect(getDifferences(
-  'file3.json',
-  'file4.json'
+  'file3.yml',
+  'file4.yml'
   )).toEqual(console.log('{' 
   + '\n' 
   + '  ' + '- a:1' 
