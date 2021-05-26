@@ -3,8 +3,8 @@ import readFile from '../src/readFile.js';
 
 test('getDifferences', () => {
   expect(getDifferences(
-  'file3.yml',
-  'file4.yml'
+  'file1.json',
+  'file2.json'
   )).toEqual(console.log('{' 
   + '\n' 
   + '  ' + '- a:1' 
